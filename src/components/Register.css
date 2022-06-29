@@ -1,0 +1,47 @@
+.reg_div {
+  /* background-color: aqua; */
+  /* background-color: rgb(232, 250, 250); */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.reg_form {
+  background-color: rgb(228, 250, 250);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.75);
+  /* justify-content: center; */
+}
+.reg_form h3 {
+  margin-bottom: 10px;
+}
+.reg_form input {
+  width: 250px;
+  height: 40px;
+  text-indent: 10px;
+  font-size: 18px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  border: 1px solid rgb(154, 154, 154);
+}
+.reg_form button {
+  margin-top: 15px;
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid rgb(167, 160, 160);
+  font-weight: 600;
+  color: white;
+  background-color: rgb(39, 39, 69);
+}
+.sign_required {
+  color: red;
+}

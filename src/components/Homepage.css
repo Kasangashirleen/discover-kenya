@@ -1,0 +1,56 @@
+.main{
+    background-image: url("../images/giraffes.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+.page-texts{
+    /* background-color: aqua; */
+    padding: 90px;
+    padding-left: 350px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.09em;
+}
+.page-texts > h3{
+    display: flex;
+    gap: 10px;
+}
+.page-texts > h4{
+    margin-top: 25px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+.page-texts > p{
+    margin-top: 25px;
+    /* max-width: 70%;
+    min-width: 40px; */
+}
+.auth-btns{
+    position: fixed;
+    bottom: 100px;
+    display: flex;
+    gap: 20px;
+    margin-left: 380px;
+}
+.sign_btn{
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: ivory;
+    font-size: larger;
+}
+.login_btn{
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: ivory;
+    font-size: larger;
+}

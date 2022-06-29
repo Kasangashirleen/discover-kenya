@@ -1,0 +1,23 @@
+.region{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 247, 238);
+    padding: 10px;
+    margin: 10px;
+    line-height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px rgb(215, 159, 159);
+    height: 450px;
+    width: 400px;
+    flex: 0 0 auto;
+  }
+  .region img{
+    border: none;
+    border-radius: 5px;
+    /* height: 30vh; */
+    height: 300px;
+  }
+  .region h2{
+    padding-bottom: 10px;
+  }

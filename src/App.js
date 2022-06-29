@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Homepage from "./components/Homepage";
+import Register from "./components/Register";
+import Login from './components/Login';
+import Search from "./components/Search";
+import Region from "./components/Region";
+import About from "./components/About";
+import Services from "./components/Services";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
 
 function App() {
+  const styles = {
+    background:
+      "linear-gradient(242.65deg, #73EED0 20.96%, rgba(121, 83, 210, 0.758451) 62.87%)",
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={styles}>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/search" element={<Search />} />
+          <Route path="/region/:id" element={<Region />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          {/* <Route path="/search" element={<Search />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/region/:id" element={<Region />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} /> */}
+        </Routes>
+      </Router>
     </div>
   );
 }

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-search {
+  background-color: rgb(228, 244, 248);
+  height: 100vh;
+  /* margin-top: 100px; */
+  height: 100%;
+}
+.selected_regions {
+  /* background-color: crimson; */
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  flex-shrink: 0;
+  flex-grow: 0;
+
+  /* background-color: blanchedalmond; */
+}
+.dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(228, 244, 248);
+  padding: 40px;
+  box-shadow: 5px 10px 18px #888888;
+}
+.dropdown-list {
+  margin-left: 5px;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+}
