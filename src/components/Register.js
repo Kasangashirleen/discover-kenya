@@ -83,8 +83,7 @@ function Register() {
           />
           <p style={{ color: "red" }}>{errMsg}</p>
           <button>SIGN UP</button>
-          <br></br>
-          <p>
+          <p style={{fontSize:"18px"}}>
             Already Registered? <Link to="/login">Login</Link>
           </p>
         </form>

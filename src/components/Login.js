@@ -67,8 +67,7 @@ function Login() {
           />
 
           <button>LOGIN</button>
-          <br></br>
-          <p>
+          <p style={{fontSize:"18px"}}>
             Don't have an Account? <Link to="/register">Register</Link>
           </p>
         </form>
